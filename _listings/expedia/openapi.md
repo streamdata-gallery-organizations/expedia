@@ -4,7 +4,7 @@ x-collection-name: Expedia
 x-complete: 1
 info:
   title: Expedia
-  description: expedia-mobile-api-documentation-brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
+  description: expedia-mobile-api-documentation--brfont-colorblue-note-in-case-of-authorization-exception-just-a-hrefstaticmobileswaggeruiusersigninusersigninafont
   version: 0.0.1
 host: apim.expedia.com
 basePath: x/
@@ -2335,7 +2335,7 @@ paths:
         description: Region based search
       - in: query
         name: resultsPerPage
-        description: ' Expected number of hotels per page'
+        description: Expected number of hotels per page
       - in: query
         name: returnOpaqueHotels
         description: Whether opaque hotels should be returned

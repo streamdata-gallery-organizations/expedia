@@ -2335,7 +2335,7 @@ paths:
         description: Region based search
       - in: query
         name: resultsPerPage
-        description: ' Expected number of hotels per page'
+        description: Expected number of hotels per page
       - in: query
         name: returnOpaqueHotels
         description: Whether opaque hotels should be returned

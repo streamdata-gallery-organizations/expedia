@@ -1,24 +1,21 @@
 ---
 name: Expedia
 x-slug: expedia
-description: Expedia.com is an Internet-based travel agency and a part of Expedia,
-  Inc.. It books airline tickets, hotel reservations, car rentals, cruises, vacation
-  packages, and various attractions and services via the World Wide Web and telephone
-  travel agents. The site uses the Sabre reservation system as their main Global reservations
-  system.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+description: Expedia Affiliate Network is the B2B partnership brand of Expedia, Inc.
+  Our technology powers the hotel offering of thousands of partners around the world.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "197733"
 tags: Expedia
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/expedia/master/_listings/expedia/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Expedia Search
   x-api-slug: expedia
   description: Mobile API Flights
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/flight/search
   tags: Travel,Airports,Airplanes,Airlines
@@ -30,7 +27,7 @@ apis:
 - name: Expedia Create A Trip
   x-api-slug: expedia
   description: Mobile API Flights Create Trip Operation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/flight/trip/create
   tags: Travel,Airports,Airplanes,Trips,Airlines
@@ -43,7 +40,7 @@ apis:
   x-api-slug: expedia
   description: This api provides an accurate credit card fee that a user would have
     to pay when booking a trip.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/flight/trip/cardFee
   tags: Travel,Airports,Airplanes,Airlines
@@ -55,7 +52,7 @@ apis:
 - name: Expedia Details
   x-api-slug: expedia
   description: Mobile API Flight Details Operation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/flight/details
   tags: Travel,Airports,Airplanes,Airlines
@@ -67,7 +64,7 @@ apis:
 - name: Expedia Flight Image
   x-api-slug: expedia
   description: Mobile API Flight Image Operation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/flight/image
   tags: Travel,Airports,Airplanes,Images,Airlines
@@ -79,7 +76,7 @@ apis:
 - name: Expedia Mobile Image
   x-api-slug: expedia
   description: Mobile API Flight Mobile Image Operation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/mobile/image
   tags: Travel,Airports,Airplanes,Images,Airlines
@@ -91,7 +88,7 @@ apis:
 - name: Expedia Airport Dropdown
   x-api-slug: expedia
   description: Mobile API Flight Airport Dropdown Operation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/flight/airportDropDown
   tags: Travel,Airports,Airplanes,Airlines
@@ -104,7 +101,7 @@ apis:
   x-api-slug: expedia
   description: Checkout a previously created flight trip, requiring payment fields,
     the trip id, and the passenger fields
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/flight/checkout
   tags: Travel,Airports,Airplanes,Airlines
@@ -116,7 +113,7 @@ apis:
 - name: Expedia Create a trip for partner
   x-api-slug: expedia
   description: Creates a flight trip, passing a product key and all required fields.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/flight/trip/V2/create
   tags: Travel,Airplanes,Airlines
@@ -128,7 +125,7 @@ apis:
 - name: Expedia Fare Rules for the trip
   x-api-slug: expedia
   description: Air Fare Rule information of the trip created
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/flight/fareRules/{tripId}
   tags: Travel,Airports,Airplanes,Airlines
@@ -144,7 +141,7 @@ apis:
 
     There are multiple successful responses for this operation.
     See the examples below for more information.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/search
   tags: Travel,Hotels
@@ -156,7 +153,7 @@ apis:
 - name: Expedia Get Offers
   x-api-slug: expedia
   description: Mobile API Hotels Offers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/offers
   tags: Travel,Hotels
@@ -168,7 +165,7 @@ apis:
 - name: Expedia Get Offers
   x-api-slug: expedia
   description: Mobile API Hotels Offers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/offers/v3
   tags: Travel,Hotels
@@ -180,7 +177,7 @@ apis:
 - name: Expedia Create A Trip
   x-api-slug: expedia
   description: Mobile API Hotels Create Trip
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/trip/create
   tags: Travel,Hotels
@@ -192,7 +189,7 @@ apis:
 - name: Expedia Checkout
   x-api-slug: expedia
   description: Mobile API Hotels Checkout
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/trip/checkout
   tags: Travel,Hotels
@@ -204,7 +201,7 @@ apis:
 - name: Expedia Hotel Checkout With JSON Request Body
   x-api-slug: expedia
   description: Mobile API Hotel Checkout V2
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/trip/V2/checkout
   tags: Travel,Hotels
@@ -215,7 +212,7 @@ apis:
   x-api-slug: expedia
   description: Service that returns the fields that are required or optional for a
     given point of sale.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/trip/checkoutfields
   tags: Travel,Hotels
@@ -228,7 +225,7 @@ apis:
   x-api-slug: expedia
   description: Cancel Enquiry for hotel, pass in itinerary id, email address of trip
     owner.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/trip/cancelEnquiry
   tags: Travel,Hotels
@@ -241,7 +238,7 @@ apis:
   x-api-slug: expedia
   description: Cancel Enquiry for hotel, pass in itinerary id, email address of trip
     owner.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/trip/V2/cancelEnquiry
   tags: Travel,Hotels
@@ -253,7 +250,7 @@ apis:
 - name: Expedia Product
   x-api-slug: expedia
   description: Hotel Product
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/product
   tags: Travel,Hotels
@@ -265,7 +262,7 @@ apis:
 - name: Expedia Info
   x-api-slug: expedia
   description: Hotel Information
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/info
   tags: Travel,Hotels
@@ -277,7 +274,7 @@ apis:
 - name: Expedia Cancel Trip
   x-api-slug: expedia
   description: Hotel Trip Cancellation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/trip/cancel
   tags: Travel,Hotels
@@ -289,7 +286,7 @@ apis:
 - name: Expedia Cancel Room
   x-api-slug: expedia
   description: Hotel Room Cancellation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/rooms/cancel
   tags: Travel,Hotels
@@ -303,7 +300,7 @@ apis:
   description: |-
     Converts from a given currency amount to the equivalent in rewards points.
     [Note: Works only if the User is signed-in and is the owner of the trip.]
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/trip/calculatePoints
   tags: Travel,Trips
@@ -316,7 +313,7 @@ apis:
   x-api-slug: expedia
   description: Gets packages and supports changed flights and hotels for flexible
     shopping.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///getpackages/v1
   tags: Travel,Packages
@@ -328,7 +325,7 @@ apis:
 - name: Expedia Get Package Offers
   x-api-slug: expedia
   description: Mobile API Packages
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/packages/hotelOffers
   tags: Travel,Packages,Offers,Hotels
@@ -340,7 +337,7 @@ apis:
 - name: Expedia Create A Trip
   x-api-slug: expedia
   description: Mobile API Packages Create Trip operation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/packages/createTrip
   tags: Travel,Packages
@@ -352,7 +349,7 @@ apis:
 - name: Expedia Checkout
   x-api-slug: expedia
   description: Mobile API Packages Checkout
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/packages/checkout
   tags: Travel,Packages
@@ -364,7 +361,7 @@ apis:
 - name: Expedia Apply Coupon
   x-api-slug: expedia
   description: Mobile API Packages Apply Coupon
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/m/trip/coupon
   tags: Travel,Airports,Airplanes,Coupons,Airlines
@@ -376,7 +373,7 @@ apis:
 - name: Expedia Remove Coupon
   x-api-slug: expedia
   description: Mobile API Packages Remove Coupon
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/m/trip/remove/coupon
   tags: Travel,Airports,Airplanes,Coupons,Airlines
@@ -388,7 +385,7 @@ apis:
 - name: Expedia Get Trips
   x-api-slug: expedia
   description: Mobile API Trips
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/trips
   tags: Travel,Search
@@ -400,7 +397,7 @@ apis:
 - name: Expedia Trips by tripId
   x-api-slug: expedia
   description: Mobile API Trips
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/trips/{tripId}
   tags: Travel,Search,Trips
@@ -412,7 +409,7 @@ apis:
 - name: Expedia Update Trip Name and Description
   x-api-slug: expedia
   description: Mobile API Trips update trip name and description operation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/trips/{tripId}/updateTripNameDescription
   tags: Travel,Search,Trips
@@ -424,7 +421,7 @@ apis:
 - name: Expedia (Internal Only)
   x-api-slug: expedia
   description: (Internal Only) Retrieve trip (tripId) for given customer (userId)
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/users/{userId}/trips/{tripId}
   tags: Travel,Users
@@ -436,7 +433,7 @@ apis:
 - name: Expedia (Internal Only)
   x-api-slug: expedia
   description: (Internal Only) Returns array of trips for passed userId
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/users/{userId}/trips
   tags: Travel,Users
@@ -449,7 +446,7 @@ apis:
   x-api-slug: expedia
   description: This api provides an accurate credit card fee that a user would have
     to pay when booking a trip.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/rails/trip/cardFee
   tags: Travel,Trips
@@ -461,7 +458,7 @@ apis:
 - name: Expedia Rails Checkout With JSON Request Body
   x-api-slug: expedia
   description: Mobile API Rails Checkout
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/rails/trip/checkout
   tags: Travel,Trains,Rails
@@ -471,7 +468,7 @@ apis:
 - name: Expedia User Sign-In
   x-api-slug: expedia
   description: Mobile API User Sign-In
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/user/sign-in
   tags: Travel,Users
@@ -483,7 +480,7 @@ apis:
 - name: Expedia Profile
   x-api-slug: expedia
   description: Mobile API User Profile
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/user/profile
   tags: Travel,Users
@@ -495,7 +492,7 @@ apis:
 - name: Expedia Create User
   x-api-slug: expedia
   description: Mobile API User Create
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/user/create
   tags: Travel,Users
@@ -507,7 +504,7 @@ apis:
 - name: Expedia Update
   x-api-slug: expedia
   description: Mobile API User Update Traveler
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/user/update-traveler
   tags: Travel,Users
@@ -519,7 +516,7 @@ apis:
 - name: Expedia Associate User To Trip
   x-api-slug: expedia
   description: Mobile API User Associate To Trip
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///api/user/associateUserToTrip
   tags: Travel,Search,Trips
@@ -531,7 +528,7 @@ apis:
 - name: Expedia Search
   x-api-slug: expedia
   description: Mobile API Cars
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/cars/search/airport
   tags: Travel,Cars
@@ -543,7 +540,7 @@ apis:
 - name: Expedia Search
   x-api-slug: expedia
   description: Mobile API Cars
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/cars/search/location
   tags: Travel,Cars
@@ -555,7 +552,7 @@ apis:
 - name: Expedia Search
   x-api-slug: expedia
   description: Mobile API Cars
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/cars/search
   tags: Travel,Cars
@@ -567,7 +564,7 @@ apis:
 - name: Expedia Create A Trip
   x-api-slug: expedia
   description: Mobile API Cars Create Trip
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/cars/trip/create
   tags: Travel,Cars
@@ -579,7 +576,7 @@ apis:
 - name: Expedia Checkout
   x-api-slug: expedia
   description: Mobile API Cars Checkout
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/cars/trip/checkout
   tags: Travel,Cars
@@ -591,7 +588,7 @@ apis:
 - name: Expedia Cancel Trip
   x-api-slug: expedia
   description: car Trip Cancellation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/cars/trip/cancel
   tags: Travel,Cars
@@ -603,7 +600,7 @@ apis:
 - name: Expedia Search
   x-api-slug: expedia
   description: LX Shop Search
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///lx/api/search
   tags: Travel,Shop
@@ -615,7 +612,7 @@ apis:
 - name: Expedia Infosite/Details
   x-api-slug: expedia
   description: Lx Details Search
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///lx/api/activity
   tags: Travel,Activities
@@ -627,7 +624,7 @@ apis:
 - name: Expedia Create A Trip
   x-api-slug: expedia
   description: Mobile API Lx Create Trip
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/lx/trip/create
   tags: Travel,Trips
@@ -637,7 +634,7 @@ apis:
 - name: Expedia Checkout
   x-api-slug: expedia
   description: Mobile API Lx Checkout
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/lx/trip/checkout
   tags: Travel,Hotels
@@ -649,7 +646,7 @@ apis:
 - name: Expedia LPAS Search
   x-api-slug: expedia
   description: Mobile API Hotel Search using LPAS
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x///m/api/hotel/search/v3
   tags: Travel,Hotels
@@ -666,7 +663,7 @@ apis:
     of the best travel applications on the market are powered by the EAN API. Learn
     more reasons to partner with EAN by taking a look at our brochure and watching
     our video. The world of travel awaits you!
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
   baseURL: https://apim.expedia.com/x/
   tags: Expedia
@@ -678,8 +675,12 @@ x-common:
   url: http://api.ean.com
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/expedia
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/ean-upc-codes-com
 - type: x-documentation
   url: https://www.expedia.com/static/mobile/swaggerui/
+- type: x-email
+  url: support@ean.com
 - type: x-github
   url: https://github.com/Expedia
 - type: x-swagger--original
