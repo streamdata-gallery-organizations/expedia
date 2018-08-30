@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Expedia",
+	"description": "This is a repository of expedia APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/expedia.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://expedia.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Expedia",
+			"x-api-slug": "expedia",
+			"description": "Expedia Affiliate Network is the B2B partnership brand of Expedia, Inc. Our technology powers the hotel offering of thousands of partners around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg",
+			"humanURL": "http://developer.ean.com/",
+			"baseURL": "https://apim.expedia.com/x/",
+			"tags": "Expedia",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/expedia/master/_listings/expedia/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Expedia",
+	"include": [
+		{
+			"name": "Expedia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/expedia/master/_listings/expedia/apis.yaml"
+		}
+	]
+}
